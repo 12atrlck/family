@@ -104,7 +104,7 @@
 
 .features{
     width: 100%;
-    height: 750px;
+    height: 670px;
     background-color: gray;
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@
 
 .features .features-cards{
     width: 95%;
-    height: 600px;
+    height: 400px;
     background-color: blue;
     display: flex;
     justify-content: space-between;
@@ -128,13 +128,85 @@
 
 .features .features-cards div{
     width: 23.5%;
-    height: 600px;
+    height: 450px;
     background-color: goldenrod;
 }
 
 .features-cards .one .pic{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-image: url(assets/images/candyflowerpot.jpg);
+    background-size: cover;   
+    padding-top: 10px;
+}
+
+.features-cards .one .sale {
+    width: 18%;
+    height: 11%;
+    background-color: rgb(76, 31, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+ .features-cards .amount{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    background: #000;
+    background-color: green;
+} 
+
+.features-cards .amount .line{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: line-through;
+} 
+
+.features-cards .amount .non{
+    float: right;
+    display: flex; 
+    justify-content: center; 
+}
+
+.features-cards .two .pic{
+    width: 100%;
+    height: 300px;
+    background-image: url(assets/images/dropvase.jpg);
+    background-size: cover;   
+    padding-top: 10px;
+}
+
+.features-cards h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.features-cards .two .sale {
+    width: 18%;
+    height: 11%;
+    background-color: rgb(76, 31, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.features-cards .three .pic{
+    width: 100%;
+    height: 300px;
+    background-image: url(assets/images/wavevast.jpg);
+    background-size: cover;   
+}
+
+.features-cards .four .pic{
+    width: 100%;
+    height: 300px;
+    background-image: url(assets/images/sunvase.jpg);
     background-size: cover;   
 }
