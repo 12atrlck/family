@@ -70,6 +70,7 @@
     padding-top: 15px;
 }
 
+/* HOME */
 .main {
     width: 100%;
     height: 600px;
@@ -102,10 +103,11 @@
     margin-top: 10px;
 }
 
+/* MOST SOLD */
 .features{
     width: 100%;
     height: 670px;
-    background-color: gray;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,22 +116,41 @@
 }
 
 .features h1{
-    background-color: palegoldenrod;
+    background-color: transparent;
     font-size: 60px;
 }
 
 .features .features-cards{
     width: 95%;
     height: 400px;
-    background-color: blue;
+    margin-top: 50px;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
 }
 
-.features .features-cards div{
+.features .features-cards .one{
     width: 23.5%;
     height: 450px;
-    background-color: goldenrod;
+    background-color: transparent;
+}
+
+.features .features-cards .two{
+    width: 23.5%;
+    height: 450px;
+    background-color: transparent;
+}
+
+.features .features-cards .three{
+    width: 23.5%;
+    height: 450px;
+    background-color: transparent;
+}
+
+.features .features-cards .four{
+    width: 23.5%;
+    height: 450px;
+    background-color: transparent;
 }
 
 .features-cards .one .pic{
@@ -150,27 +171,33 @@
     color: whitesmoke;
 }
 
- .features-cards .amount{
-    display: flex;
+ .features-cards .more{
+    /* display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row-reverse; */
     width: 100%;
-    height: 5%;
-    background: #000;
-    background-color: green;
+    height: 4px;
+    /* background: #000;
+    background-color: green; */
 } 
 
-.features-cards .amount .line{
+.features-cards .more .line{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     text-decoration: line-through;
 } 
 
-.features-cards .amount .non{
-    float: right;
+.features-cards .more p{
     display: flex; 
     justify-content: center; 
+}
+
+.amounts {
+    /* background-color: green; */
+    width: 100%;
+    height: 10px;
+
 }
 
 .features-cards .two .pic{
@@ -209,4 +236,295 @@
     height: 300px;
     background-image: url(assets/images/sunvase.jpg);
     background-size: cover;   
+}
+
+.car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.div-1 {
+    width: 50%;
+    height: 50px;
+    padding-left: 25%;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.div-2 {
+    width: 50%;
+    height: 50px;
+    padding-right: 25%;
+}
+
+.contai{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    font-size: 130%;
+}
+
+#car{
+    margin-top: 7px;
+}
+
+/* STORE */
+.explore{
+    width: 100%;
+    height: 600px;
+    background-image: url(assets/images/homedecor.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.explore h2{
+    font-size: 120px;
+    color: whitesmoke;
+}
+
+.explore p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.explore button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(76, 31, 89);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.info {
+    width: 100%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT */
+.character {
+    width: 95%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first{
+    width: 48%;
+    height: 600px;
+}
+
+.picture{
+    width: 100%;
+    height: 350px;
+    background-image: url(assets/images/about.jpg);
+    background-size: cover;   
+    padding-top: 10px;
+}
+
+.ture{
+    width: 100%;
+    height: 350px;
+    background-image: url(assets/images/sustainability.jpg);
+    background-size: cover;   
+    padding-top: 10px;
+}
+
+.second {
+    width: 48%;
+    height: 600px;
+}
+
+.advice h2{
+    font-size: 100px;
+}
+
+.advice p{
+    font-size: 20px;
+}
+
+.advice button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: rgb(76, 31, 89);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* SIGN */
+.sign{
+    width: 100%;
+    height: 550px;
+    background-image: url(assets/images/signup.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign h2{
+    font-size: 60px;
+    font-weight: 550;
+    color: whitesmoke;
+}
+
+.sign label{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.sign input {
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.sign button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(76, 31, 89);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* CONTACT */
+.social{
+    width: 100%;
+    height: 670px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social h1{
+    background-color: transparent;
+    font-size: 60px;
+}
+
+.social .green{
+    width: 95%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social .gree{
+    width: 32.5%;
+    height: 400px;
+    background-color: transparent;
+    background-image: url(assets/images/watering.jpg);
+    background-size: cover;
+}
+
+.social .reen{
+    width: 32.5%;
+    height: 400px;
+    background-color: transparent;
+    background-image: url(assets/images/shy.jpg);
+    background-size: cover;
+}
+
+.social .gren{
+    width: 32.5%;
+    height: 400px;
+    background-color: transparent;
+    background-image: url(assets/images/coffee.jpg);
+    background-size: cover;
+}
+
+.social button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 31, 89);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* END */
+.footer {
+    width: 100%;
+    min-height: 40vh;
+    background-color: lightgrey;
+    padding-top: 5vh;
+}
+
+.btn-1{
+    height: 6vh;
+    width: 10%;
+    color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 0;
+}
+
+.link-1{
+    float: left;
+    width: 20%;
+    height: 30vh;
+    /* background-color: #2f1c6a; */
+}
+
+.bless{
+    float: left;
+    width: 100%;
+    height: 15vh;
+    padding: 13% 30%;
+    /* background-color: goldenrod; */
+}
+
+.ing{
+    float: left;
+    width: 100%;
+    height: 15vh;
+    gap: 10px;
+    /* background-color: black; */
+}
+
+.link-2{
+    float: right;
+    width: 20%;
+    height: 30vh;
+    color: black;
+    /* background-color: #2f1c6a; */
+}
+
+.money {
+    display: block;
+    text-decoration: underline;
+    font-size: 130%;
+    padding-bottom: 3%;
+    padding-left: 6%;
 }
