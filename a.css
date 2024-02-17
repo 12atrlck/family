@@ -94,13 +94,17 @@
 }
 
 .main button{
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(76, 31, 89);
     border: none;
     border-radius: 5px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 /* MOST SOLD */
@@ -243,6 +247,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    font-size: 120%;
     background-color: transparent;
 }
 
@@ -429,7 +434,7 @@
 }
 
 .social .green{
-    width: 95%;
+    width: 85%;
     height: 400px;
     margin-top: 50px;
     background-color: transparent;
@@ -438,7 +443,7 @@
 }
 
 .social .gree{
-    width: 32.5%;
+    width: 33%;
     height: 400px;
     background-color: transparent;
     background-image: url(assets/images/watering.jpg);
@@ -446,7 +451,7 @@
 }
 
 .social .reen{
-    width: 32.5%;
+    width: 33%;
     height: 400px;
     background-color: transparent;
     background-image: url(assets/images/shy.jpg);
@@ -454,7 +459,7 @@
 }
 
 .social .gren{
-    width: 32.5%;
+    width: 33%;
     height: 400px;
     background-color: transparent;
     background-image: url(assets/images/coffee.jpg);
@@ -476,7 +481,7 @@
 .footer {
     width: 100%;
     min-height: 40vh;
-    background-color: lightgrey;
+    background-color: #f2f3f6;
     padding-top: 5vh;
 }
 
